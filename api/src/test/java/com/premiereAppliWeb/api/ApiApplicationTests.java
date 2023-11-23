@@ -25,6 +25,4 @@ class ApiApplicationTests {
             .andExpect(status().isOk())
             .andExpect(jsonPath("$[0].firstName", is("Laurent")));
     }
-
-
 }
