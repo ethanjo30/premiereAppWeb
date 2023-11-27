@@ -13,11 +13,6 @@ import com.afpa.webapp.service.EmployeeService;
 
 @Controller
 public class EmployeeController {
-    
-    @GetMapping("/")
-    public String home() {
-        return "home";
-    }
 
     @GetMapping("/")
     public String home(Model model) {
